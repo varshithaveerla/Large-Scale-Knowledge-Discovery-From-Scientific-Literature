@@ -1,0 +1,21 @@
+{
+  "dataset": "Enron Bag-of-Words",
+  "description": "Schema for bag-of-words representation used in the project",
+  "columns": [
+    {
+      "name": "doc_id",
+      "type": "integer",
+      "description": "Unique document identifier"
+    },
+    {
+      "name": "word_id",
+      "type": "integer",
+      "description": "Unique word identifier"
+    },
+    {
+      "name": "count",
+      "type": "integer",
+      "description": "Term frequency in document"
+    }
+  ]
+}

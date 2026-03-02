@@ -1,0 +1,16 @@
+spark:
+  app_name: Large-Scale-Knowledge-Discovery-BagOfWords
+  master: local[*]
+
+resources:
+  executor_memory: 4g
+  driver_memory: 4g
+  executor_cores: 2
+  shuffle_partitions: 200
+
+performance:
+  broadcast_timeout: 600
+  auto_broadcast_join_threshold: 50MB
+
+storage:
+  persist_level: MEMORY_AND_DISK

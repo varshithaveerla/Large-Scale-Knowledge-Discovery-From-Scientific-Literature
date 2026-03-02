@@ -1,0 +1,14 @@
+name: pyspark-text-analytics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pyarrow
+  - pip
+  - pip:
+      - pyspark==3.5.8
+      - findspark

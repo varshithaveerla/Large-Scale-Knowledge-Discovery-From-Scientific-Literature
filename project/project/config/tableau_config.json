@@ -1,0 +1,27 @@
+{
+  "project_name": "Large-Scale Knowledge Discovery",
+  "data_source_type": "CSV",
+  "encoding": "UTF-8",
+  "dashboards": [
+    {
+      "name": "Data Quality and Pipeline Monitoring",
+      "file": "dashboard1_data_quality.csv"
+    },
+    {
+      "name": "Model Performance and Feature Importance",
+      "file": "dashboard2_model_performance.csv"
+    },
+    {
+      "name": "Business Insights and Recommendations",
+      "file": "dashboard3_business_insights.csv"
+    },
+    {
+      "name": "Scalability and Cost Analysis",
+      "file": "dashboard4_scalability.csv"
+    }
+  ],
+  "refresh_policy": {
+    "mode": "manual",
+    "recommended_interval": "on_update"
+  }
+}
